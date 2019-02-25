@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Responsive portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rick0178/Portfolio.git"
+  },
+  "author": "Rick de Boer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rick0178/Portfolio/issues"
+  },
+  "homepage": "https://github.com/rick0178/Portfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
