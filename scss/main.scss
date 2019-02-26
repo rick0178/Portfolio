@@ -7,6 +7,7 @@ $background-opacity: 0.6;
 
 @import 'config';
 @import 'menu';
+@import 'mobile';
 
 * {
     box-sizing: border-box;
@@ -20,10 +21,6 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: $primary-color;
     line-height: 1.5;
-}
-
-.nav-item {
-    color: #000;
 }
 
 h1, h2, h3 {
