@@ -137,7 +137,8 @@ body {
   body#bg-img {
     background: url(../img/Delft.jpg);
     background-attachment: fixed;
-    background-size: cover; }
+    background-size: cover;
+    position: relative; }
     body#bg-img:after {
       content: '';
       position: absolute;
